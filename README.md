@@ -21,7 +21,7 @@ Machine learning system for automated credit score classification based on finan
 
 ### Model Comparison
 
-https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/model_comparison.png
+![Model Comparison](https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/model_comparison.png)
 
 ### Confusion Matrix
 
