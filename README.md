@@ -25,15 +25,15 @@ Machine learning system for automated credit score classification based on finan
 
 ### Confusion Matrix
 
-![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix](https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/confusion_matrix.png)
 
 ### Per-Class Accuracy
 
-![Per-Class Accuracy](assets/per_class_accuracy.png)
+![Per-Class Accuracy](https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/per_class_accuracy.png)
 
 ### Feature Importance
 
-![Feature Importance](assets/feature_importance.png)
+![Feature Importance](https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/feature_importance.png)
 
 ## Credit Score Categories
 
