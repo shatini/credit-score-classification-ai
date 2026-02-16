@@ -14,22 +14,37 @@ Machine learning system for automated credit score classification based on finan
 | Metric | Value |
 |--------|-------|
 | Best model | LightGBM |
+| Best accuracy | 81.2% |
+| Best F1 (weighted) | 0.808 |
 | Classes | 3 (Poor, Standard, Good) |
 | Dataset | 100,000+ customer records, 28 raw features |
 | Engineered features | 21 after cleaning |
-| Class balancing | Stratified splits |
 
 ### Model Comparison
 
+| Model | Accuracy | F1 Score |
+|-------|----------|----------|
+| Logistic Regression | 65.2% | 0.638 |
+| Random Forest | 77.8% | 0.770 |
+| XGBoost | 80.1% | 0.793 |
+| **LightGBM** | **81.2%** | **0.808** |
+| CatBoost | 80.6% | 0.799 |
+
 ![Model Comparison](https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/model_comparison.png)
+
+### Per-Class Accuracy (LightGBM)
+
+| Class | Accuracy |
+|-------|----------|
+| Poor | 82.0% |
+| Standard | 79.4% |
+| Good | 83.3% |
+
+![Per-Class Accuracy](https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/per_class_accuracy.png)
 
 ### Confusion Matrix
 
 ![Confusion Matrix](https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/confusion_matrix.png)
-
-### Per-Class Accuracy
-
-![Per-Class Accuracy](https://raw.githubusercontent.com/shatini/credit-score-classification-ai/claude/migrate-credit-score-files-P0TjD/assets/per_class_accuracy.png)
 
 ### Feature Importance
 
